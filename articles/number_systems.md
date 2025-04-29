@@ -4,211 +4,219 @@
 
 ## 📘 Types of Numbers
 
-- **Natural Numbers**: Counting numbers starting from 1.  
-  Example: 1, 2, 3, 4, …
+- **Natural Numbers**: Numbers used for counting  
+  ➤ Example: 1, 2, 3, 4, …
 
-- **Whole Numbers**: Natural numbers including 0.  
-  Example: 0, 1, 2, 3, …
+- **Whole Numbers**: Natural numbers plus zero  
+  ➤ Example: 0, 1, 2, 3, …
 
-- **Integers**: All positive and negative whole numbers including 0.  
-  Example: -2, -1, 0, 1, 2
+- **Integers**: Positive and negative whole numbers  
+  ➤ Example: -2, -1, 0, 1, 2
 
-- **Rational Numbers**: Numbers that can be written as a fraction.  
-  Example: 1/2, 3, -5, 0.75
+- **Rational Numbers**: Numbers that can be written as a fraction  
+  ➤ Example: 1/2, -3/4, 0.75
 
-- **Irrational Numbers**: Numbers that cannot be written as a fraction.  
-  Example: √2, π
+- **Irrational Numbers**: Numbers that cannot be written as fractions  
+  ➤ Example: √2, π
 
-- **Real Numbers**: All rational and irrational numbers combined.
+- **Real Numbers**: All rational and irrational numbers together
 
-- **Even Numbers**: Numbers divisible by 2.  
-  Example: -4, 0, 2, 6
+- **Even Numbers**: Divisible by 2  
+  ➤ Example: -4, 0, 2, 6
 
-- **Odd Numbers**: Numbers not divisible by 2.  
-  Example: -3, 1, 5
+- **Odd Numbers**: Not divisible by 2  
+  ➤ Example: -3, 1, 5
 
-- **Prime Numbers**: Numbers with exactly 2 factors: 1 and itself.  
-  Example: 2, 3, 5, 7, 11
+- **Prime Numbers**: Only two factors: 1 and itself  
+  ➤ Example: 2, 3, 5, 7
 
-- **Composite Numbers**: Numbers with more than 2 factors.  
-  Example: 4, 6, 8, 9
-
----
-
-## ➗ What is a Remainder?
-
-When a number does not divide another exactly, the leftover part is the **remainder**.
-
-**Example**:  
-If we divide 38 into 925,  
-38 × 24 = 912 → Remainder = 925 - 912 = **13**
+- **Composite Numbers**: More than two factors  
+  ➤ Example: 4, 6, 9, 12
 
 ---
 
-## 🧮 Important Remainder Rules
+## ➗ Understanding Remainders
 
-### 1. When Numbers Are in Arithmetic Pattern
-If the numbers (like 8, 9, 10) are in a regular increasing pattern and the power is **odd**, then:
+When a number is divided and doesn’t divide exactly, the leftover part is the **remainder**.
 
+**Formula:**  
 ```
-(8³ + 9³ + 10³) ÷ (8 + 9 + 10) → Remainder is always 0
-```
-
-### 2. Special Case: Power is Odd
-If a, b, c are in arithmetic pattern and the power is odd:
-```
-aⁿ + bⁿ + cⁿ is divisible by a + b + c
+Number = Divisor × Quotient + Remainder
 ```
 
-**Example**:  
-16⁷ + 17⁷ + 18⁷ + 19⁷  
-Since numbers are in a pattern and 7 is odd,  
-→ Remainder = 0
+**Example:**  
+If we divide 925 by 38  
+→ 38 × 24 = 912  
+→ Remainder = 925 - 912 = **13**
 
 ---
 
-## 🔁 Successive Division (Dividing Step-by-Step)
+## 🔄 Additive and Multiplicative Properties of Remainders
 
-If a number is divided by 3, then the result by 4, and then by 7:
-
-**Example**:  
-If remainders are 2 (with 3), 1 (with 4), and 4 (with 7),  
-Then the original number is:  
-Step 1: 4 × 4 + 1 = 17  
-Step 2: 17 × 3 + 2 = **53**
-
-So the number is **53**
+- If 361 ÷ 12 gives remainder **1**, and 363 ÷ 12 gives **3**,  
+then:  
+→ (361 × 363) ÷ 12 will give remainder = **1 × 3 = 3**
 
 ---
 
-## 📐 Division Properties
+## 🔁 Successive Division
 
-### Additive Property
-If we divide 361 and 363 by 12, the remainders are 1 and 3.  
+Divide in reverse to find the original number:
+
+**Example:**  
+If remainders are:
+- ÷7 → 4  
+- ÷4 → 1  
+- ÷3 → 2  
+
+Steps:  
+→ 4 × 4 + 1 = 17  
+→ 17 × 3 + 2 = **53**
+
+So, the number is **53**
+
+---
+
+## 📗 Famous Theorems Made Simple
+
+---
+
+### 1. **Fermat’s Remainder Theorem**
+
+When a number `N` and a **prime divisor** `P` have no common factor (i.e., co-prime),  
 Then:
 ```
-(361 × 363) ÷ 12  
-→ 1 × 3 = 3  
-So final remainder = 3
+N to the power of P gives remainder = N
+N to the power of (P - 1) gives remainder = 1
 ```
 
-### Negative Remainder Trick
-Sometimes it's easier to work with negative numbers.
-
-**Example**:  
-109 ÷ 11  
-Instead of subtracting multiple times,  
-→ -1 is remainder  
-But since remainder must be positive →  
-11 - 1 = **10**
+**Example:**  
+11⁷ ÷ 7  
+→ 11 and 7 are co-prime  
+→ Remainder = **4** after simplifying using Fermat
 
 ---
 
-## 📗 Easy Explanation of Famous Theorems
+### 2. **Euler’s Remainder Theorem**
 
-### 1. **Fermat’s Remainder Rule**
-If two numbers have no common factor (other than 1), and one is a prime number like 7, then:
-```
-When the bigger number is raised to a power and divided by 7, the remainder is 1.
-```
+If numbers are co-prime and the divisor is **not a prime**, we use **Euler’s number**.
 
-**Example**:  
-11⁷ divided by 7 → Remainder is **1**
+**Step to find Euler’s Number (ϕ(n))**:  
+ϕ(n) = n × (1 - 1/p₁) × (1 - 1/p₂) × …  
+Where p₁, p₂ are **prime factors** of n.
 
----
-
-### 2. **Euler’s Remainder Rule**
-If two numbers are co-prime (no common factor other than 1), and the second number is not prime:
-1. First find how many numbers are less than that and co-prime → Call this Euler's number.
-2. Then you can use it to find remainder for large powers.
-
-**Example**:  
-117 divided by 7 → Euler's number is 6  
-11⁶ divided by 7 gives remainder 1  
-So 11⁷ → 11 × 1 = **11**  
-Now 11 ÷ 7 → Remainder = **4**
+**Example:**  
+Find remainder of 11⁷ when divided by 7  
+- 11 and 7 are co-prime  
+- 7 is a prime → So, ϕ(7) = 7 × (1 - 1/7) = 6  
+- Now, 11⁷ = 11 × (11⁶), and 11⁶ ÷ 7 gives remainder 1  
+→ Final remainder = 11 ÷ 7 = **4**
 
 ---
 
-### 3. **Wilson’s Remainder Rule**
-If a number is prime, then:
+### 3. **Wilson’s Theorem**
+
+If P is a **prime number**, then:
 ```
-(P - 1)! + 1 is divisible by P
+(P - 1)! + 1 is exactly divisible by P
 ```
 
-**Example**:  
-(40)! + 1 divided by 41 → Remainder = **0**
+**Example:**  
+(40)! + 1 ÷ 41 → Remainder = **0**
 
 ---
 
 ## 🔢 Binary and Decimal Conversion
 
 ### Decimal to Binary
-Divide by 2 and write remainders in reverse order.
 
-**Example**:  
+Steps:  
+1. Divide the number by 2.  
+2. Record the remainders.  
+3. Write the remainders in reverse order.
+
+**Example:**  
 127 → (1111111)₂
 
+---
+
 ### Binary to Decimal
-Multiply each binary digit with powers of 2 and add.
 
-**Example**:  
-(11001)₂ = 25
+Steps:  
+1. Multiply each bit by 2 raised to its position.  
+2. Add all results.
+
+**Example:**  
+(11001)₂ = 1×2⁴ + 1×2³ + 0×2² + 0×2¹ + 1×2⁰ = **25**
 
 ---
 
-## 🧠 Crow Techniques (Easiest Tricks)
+# 🧠 Crow Techniques (Fastest Tricks)
 
 ---
 
-### ✅ Trick 1: Use A + B if Numbers Are in Pattern
-If numbers like 16, 17, 18, 19 are in pattern and power is odd:
+### ✅ Crow Trick 1: Remainder from A.P. with Odd Powers
+
+If numbers are in increasing pattern (like 16, 17, 18, 19) and power is odd:
 ```
-(16⁷ + 17⁷ + 18⁷ + 19⁷) ÷ (16+17+18+19) → Remainder = 0
+Sum of powers is divisible by the sum of numbers
+→ Remainder = 0
 ```
 
 ---
 
-### ✅ Trick 2: Use Add and Multiply Remainders
-361 → R = 1  
-363 → R = 3  
-→ 1 × 3 = 3 is final remainder
+### ✅ Crow Trick 2: Multiply Small Remainders
+
+Instead of multiplying big numbers:
+- Divide each separately and multiply their remainders.
+
+**Example:**  
+361 ÷ 12 → 1  
+363 ÷ 12 → 3  
+→ Final remainder = 1 × 3 = **3**
 
 ---
 
-### ✅ Trick 3: Negative Remainder → Make It Positive  
-If -1 is remainder in division by 11, then final remainder is 10
+### ✅ Crow Trick 3: Fix Negative Remainders
+
+If remainder is -1 and divisor is 11:  
+→ Final remainder = 11 - 1 = **10**
 
 ---
 
-### ✅ Trick 4: For Big Powers – Use Theorems  
-- Use Fermat if dividing by prime number  
-- Use Euler if dividing by co-prime but not prime
+### ✅ Crow Trick 4: Use Fermat or Euler for Big Powers
+
+- Use **Fermat** if divisor is prime  
+- Use **Euler** if numbers are co-prime but divisor is not prime
 
 ---
 
-### ✅ Trick 5: Polynomial Division  
-If (x + 3) divides a polynomial, remainder is the value when x = -3.
+### ✅ Crow Trick 5: Remainder from Polynomial Division
+
+To find the remainder of f(x) ÷ (x - a):  
+→ Just plug in x = a in f(x)
 
 ---
 
-### ✅ Trick 6: Successive Division  
-Work backward from last divisor.
+### ✅ Crow Trick 6: Convert Decimal ↔ Binary Easily
+
+- Divide by 2 and reverse for Decimal → Binary  
+- Multiply by 2 powers for Binary → Decimal
 
 ---
 
-## ✅ Summary Table
+## 📌 Summary Table
 
-| Concept                      | Shortcut / Rule                            |
-|-----------------------------|---------------------------------------------|
-| Remainder Formula           | Number = Divisor × Quotient + Remainder     |
-| Pattern + Odd Power         | Remainder is 0                              |
-| Negative Remainder          | Add divisor to make positive                |
-| Successive Division         | Work from last remainder backwards          |
-| Decimal to Binary           | Divide by 2, reverse remainders             |
-| Fermat’s Theorem            | Remainder is 1 when base and divisor are co-prime |
-| Euler’s Theorem             | Use special number of values co-prime with divisor |
+| Concept                          | Shortcut / Rule                                 |
+|----------------------------------|--------------------------------------------------|
+| Division Formula                 | Number = Divisor × Quotient + Remainder         |
+| Fermat’s Theorem                 | Use when divisor is prime and co-prime to base  |
+| Euler’s Theorem                  | ϕ(n) = n × (1 - 1/p₁) × (1 - 1/p₂) × …           |
+| Wilson’s Theorem                | (P - 1)! + 1 is divisible by P                   |
+| Successive Division              | Work backward from last divisor                 |
+| Negative Remainder Shortcut      | Add divisor to negative remainder               |
+| Decimal ↔ Binary                 | Divide or multiply using powers of 2            |
 
 ---
 
-These methods will help students quickly solve remainder and number system questions in a fun and easy way!
+This version of **Number System** includes both core concepts and fastest shortcut tricks to help 6–8 graders master the topic with confidence and
