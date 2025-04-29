@@ -37,24 +37,148 @@
 
 ### ✅ Quadratic Equations
 
-General form:
+A **quadratic equation** is a polynomial equation of degree 2:
+
 ```
 ax² + bx + c = 0
 ```
 
-Discriminant:
-```
-D = b² - 4ac
-```
+Where:
+- `a ≠ 0`
+- `a, b, c` are real or complex coefficients
 
-- D > 0 → Real, unequal roots
-- D = 0 → Real, equal roots
-- D < 0 → Imaginary roots
+---
 
-Roots:
+## 📐 Standard Formula for Roots
+
 ```
 x = [-b ± √(b² - 4ac)] / 2a
 ```
+
+Where:
+- Discriminant `D = b² - 4ac` determines the nature of roots.
+
+---
+
+## 🔍 Nature of Roots Based on Discriminant
+
+- **If D > 0 and perfect square** → Real and Rational Roots
+- **If D > 0 but not perfect square** → Real and Irrational Roots
+- **If D = 0** → Real and Equal Roots
+- **If D < 0** → Complex or Imaginary Roots
+
+---
+
+### ✏️ Example 1: Roots are real and equal
+
+Given:
+```
+4x² + 6mx + 9 = 0
+```
+
+Find `m` such that roots are equal.
+
+Set:
+```
+D = b² - 4ac = 0
+→ (6m)² - 4×4×9 = 0
+→ 36m² = 144 → m² = 4 → m = ±2
+```
+
+---
+
+### ✏️ Example 2: Roots are real and irrational
+
+Given:
+```
+x² + 12x + 35 = 0
+```
+
+Check `D`:
+```
+D = 12² - 4×1×35 = 144 - 140 = 4 → perfect square
+→ Roots are real and rational
+```
+
+---
+
+### ✏️ Example 3: Roots are imaginary
+
+Given:
+```
+√2 x² - 3x + 3√2 = 0
+```
+
+Check `D`:
+```
+D = (-3)² - 4×√2×3√2 = 9 - 24 = -15 < 0
+→ Roots are imaginary
+```
+
+---
+
+## 🧮 Maximum or Minimum Value of Quadratic
+
+Quadratic: `f(x) = ax² + bx + c`
+
+- **If a > 0** → Minimum value at x = -b/2a
+- **If a < 0** → Maximum value at x = -b/2a
+
+Value at that point:
+```
+f(x) = (4ac - b²) / 4a
+```
+
+---
+
+### ✏️ Example 4: Find max/min value
+
+```
+f(x) = 2x² + 3x + 4
+a = 2 > 0 → Minimum at x = -3/(2×2) = -3/4
+```
+
+---
+
+## 🎯 Forming Quadratic Equation from Roots
+
+If `α` and `β` are roots, the equation is:
+
+```
+x² - (α + β)x + (αβ) = 0
+```
+
+---
+
+### ✏️ Example 5: Roots are 2 + √3 and 2 - √3
+
+- Sum = 4, Product = (2 + √3)(2 - √3) = 4 - 3 = 1  
+- Equation:  
+  ```
+  x² - 4x + 1 = 0
+  ```
+
+---
+
+## 🔗 Conditions for Common Roots
+
+Given two equations:
+
+```
+a₁x² + b₁x + c₁ = 0  
+a₂x² + b₂x + c₂ = 0
+```
+
+- **Both roots common**: coefficients are proportional  
+  ```
+  a₁/a₂ = b₁/b₂ = c₁/c₂
+  ```
+
+- **One root common**:
+
+  ```
+  (b₁c₂ - b₂c₁)² = (a₁b₂ - a₂b₁)(c₁a₂ - c₂a₁)
+  ```
 
 ---
 
