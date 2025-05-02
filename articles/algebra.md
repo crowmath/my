@@ -1,4 +1,4 @@
-# Algebra
+## Algebra
 
 ## 📘 Key Concepts
 
