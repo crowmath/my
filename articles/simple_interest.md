@@ -1,4 +1,4 @@
-# Simple Interest
+## Simple Interest
 
 ## What is Simple Interest?
 
@@ -180,7 +180,7 @@ Value of each installment = 39600 ÷ 448 ≈ ₹88.39
 
 ---
 
-# Crow Techniques (Shortcut Tricks)
+## Crow Techniques (Shortcut Tricks)
 
 ✅ **Shortcut for Principal if SI, Rate, and Time given:**
 
@@ -229,7 +229,7 @@ Installment = Total Due ÷ Total Units
 
 ---
 
-# Summary
+## Summary
 
 - **Simple Interest** is linear and easy to calculate.
 - **Key Formula**: `SI = (P × R × T) / 100`
