@@ -1,4 +1,4 @@
-# Compound Interest
+## Compound Interest
 
 ## What is Compound Interest?
 
@@ -184,7 +184,7 @@ Solve for **r**.
 
 ---
 
-# Crow Techniques (Shortcut Tricks)
+## Crow Techniques (Shortcut Tricks)
 
 ✅ **For 2 Years - Quick Shortcut:**
 
@@ -224,7 +224,7 @@ When Rate % is easy fraction:
 
 ---
 
-# Summary
+## Summary
 
 - **Use Basic Formula** when exact numbers.
 - **Use Successive Percentage** for common percentages.
