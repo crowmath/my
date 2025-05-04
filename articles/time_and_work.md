@@ -1,4 +1,4 @@
-# Time and Work
+## Time and Work
 
 ---
 
@@ -140,7 +140,7 @@ If A's efficiency is 5× B's and total payment is ₹18,000:
 
 ---
 
-# 🧠 Crow Techniques (Shortcuts)
+## 🧠 Crow Techniques (Shortcuts)
 
 ---
 
