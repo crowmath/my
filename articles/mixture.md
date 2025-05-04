@@ -1,4 +1,4 @@
-# Mixture
+## Mixture
 
 ---
 
@@ -120,7 +120,7 @@ Use alligation:
 
 ---
 
-# 🧠 Crow Techniques (Shortcuts)
+## 🧠 Crow Techniques (Shortcuts)
 
 ---
 
