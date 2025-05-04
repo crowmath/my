@@ -1,4 +1,4 @@
-# Discount
+## Discount
 
 ---
 
@@ -134,7 +134,7 @@ Solve for x → MP = ₹4800
 
 ---
 
-# 🧠 Crow Techniques (Shortcuts)
+## 🧠 Crow Techniques (Shortcuts)
 
 ---
 
