@@ -1,4 +1,4 @@
-# Simplification and Surds & Indices
+## Simplification and Surds & Indices
 
 ---
 
@@ -145,7 +145,7 @@ Now compare sums:
 
 ---
 
-# 🧠 Crow Techniques (Fast Shortcuts)
+## 🧠 Crow Techniques (Fast Shortcuts)
 
 ---
 
