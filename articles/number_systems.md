@@ -1,4 +1,4 @@
-# Number System
+## Number System
 
 ---
 
@@ -151,7 +151,7 @@ Steps:
 
 ---
 
-# 🧠 Crow Techniques (Fastest Tricks)
+## 🧠 Crow Techniques (Fastest Tricks)
 
 ---
 
