@@ -1,4 +1,4 @@
-# LCM and HCF
+## LCM and HCF
 
 ## What is LCM?
 
@@ -189,7 +189,7 @@ Thus, the largest square tile = **180 cm × 180 cm**
 - **Use** prime factorization or division methods.
 - **Application**: Time, tiling, problems with remainders.
 
-# Crow Techniques – LCM and GCD (HCF)
+## Crow Techniques – LCM and GCD (HCF)
 
 Use these powerful shortcuts to quickly solve LCM and GCD problems in competitive exams or mental math!
 
