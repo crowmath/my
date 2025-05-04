@@ -1,4 +1,4 @@
-# Pipe & Cistern
+## Pipe & Cistern
 
 ---
 
@@ -124,7 +124,7 @@ Time = (15×10)/(10-15) = -30 hrs → Negative = Emptying
 
 ---
 
-# 🧠 Crow Techniques (Shortcuts)
+## 🧠 Crow Techniques (Shortcuts)
 
 ---
 
