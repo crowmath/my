@@ -1,4 +1,4 @@
-# Digital Sum
+## Digital Sum
 
 ## What is Digital Sum?
 
@@ -138,7 +138,7 @@
 - **Eliminate options** in multiple choice exams easily.
 - **Remember** to treat **9 as 0** and eliminate **pairs adding up to 9** for faster calculations.
 
-# Crow Techniques – Digital Sum
+## Crow Techniques – Digital Sum
 
 Use these shortcut tricks to solve Digital Sum problems faster and smarter.
 
