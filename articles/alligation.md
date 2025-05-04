@@ -1,4 +1,4 @@
-# Alligation
+## Alligation
 
 ---
 
@@ -141,7 +141,7 @@ Use:
 
 ---
 
-# 🧠 Crow Techniques (Shortcuts)
+## 🧠 Crow Techniques (Shortcuts)
 
 ---
 
