@@ -1,4 +1,4 @@
-# Time and Distance
+## Time and Distance
 
 ---
 
@@ -128,7 +128,7 @@ Time = LCM(Time taken individually for one round)
 
 ---
 
-# 🧠 Crow Techniques (Fast Shortcuts)
+## 🧠 Crow Techniques (Fast Shortcuts)
 
 ---
 
