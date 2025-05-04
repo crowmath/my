@@ -1,4 +1,4 @@
-# Profit and Loss – Complete Concepts and Tricks
+## Profit and Loss – Complete Concepts and Tricks
 
 ---
 
