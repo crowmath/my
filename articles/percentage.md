@@ -1,4 +1,4 @@
-# Percentage
+## Percentage
 
 ---
 
@@ -100,7 +100,7 @@ If length ↑ 10%, breadth ↑ 20%
 
 ---
 
-# 🧠 Crow Techniques (Fast Shortcuts)
+## 🧠 Crow Techniques (Fast Shortcuts)
 
 ---
 
