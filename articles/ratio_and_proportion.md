@@ -1,4 +1,4 @@
-# Ratio & Proportion
+## Ratio & Proportion
 
 ---
 
@@ -126,7 +126,7 @@ If each gets ₹500 extra, new ratio becomes 6:8:10
 
 ---
 
-# 🧠 Crow Techniques (Shortcuts)
+## 🧠 Crow Techniques (Shortcuts)
 
 ---
 
